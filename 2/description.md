@@ -123,3 +123,10 @@ const newNumArr = numArr.filter((num) => {
 
 console.log(newNumArr); // [1, 3, 5]
 ```
+
+## 2-9 三項演算子
+
+```js
+// ある条件 ? 条件がtrueの時の処理 : 条件がfalseの時の処理
+const val1 = 1 > 0 ? "trueです" : "falseです”;
+```
