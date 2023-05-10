@@ -1,3 +1,5 @@
+// props.childrenをしているするとコンポーネント配下のDOMをpropsで取得できる
+
 export const ColoredMessage = (props) => {
   const contentStyle = {
     color: props.color,
@@ -5,5 +7,5 @@ export const ColoredMessage = (props) => {
   };
 
   console.log(props);
-  return <p style={contentStyle}>{props.message}</p>;
+  return <p style={contentStyle}>{props.children}</p>;
 };
