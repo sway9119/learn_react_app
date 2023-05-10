@@ -1,20 +1,17 @@
+import { ColoredMessage } from "./components/ColoredMessage";
+
 // コンポーネント
 export const App = () => {
   const onClickButton = () => {
     alert("アラートです");
   };
 
-  // CSSオブジェクト
-  // CSSのスタイル名はキャメルケースになる
-  const contentStyle = {
-    color: "blue",
-    fontSize: "20px",
-  };
-
   return (
     <>
       <h1>hello world</h1>
-      <p style={contentStyle}>お元気ですか？</p>
+      <ColoredMessage></ColoredMessage>
+      <ColoredMessage color="blue" message="お元気でしたか？"></ColoredMessage>
+      <ColoredMessage color="pink" message="元気です！"></ColoredMessage>
       <button onClick={onClickButton}>ボタン</button>
     </>
   );
