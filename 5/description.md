@@ -15,3 +15,14 @@ $ npm install @emotion/react @emotion/styled
 - Inline Styles
 - Styled JSX
 - styled components
+
+## Tailwind CSS
+
+```
+// インストール
+$ npm install -D tailwindcss
+```
+
+create-react-app のプロジェクトのセットアップは以下参照。
+
+https://tailwindcss.com/docs/guides/create-react-app
